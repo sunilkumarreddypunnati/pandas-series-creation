@@ -13,5 +13,6 @@ list= [5, 10, 15, 20, 25]
 s=pd.Series(list)
 print(s)
 print("second element:",s[1])
-print("second element:",s[3])
+print("fourth element:",s[3])
+
 print("sum:",s.sum())
